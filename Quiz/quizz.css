@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fundoverde.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+.conteiner{
+    background-color: #fffffffa;
+    max-width: 70%;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #16161667;  
+    align-items: center;
+    margin: auto; 
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+
+.perguntas{
+    display: flex;
+}
+.pergunta1, .pergunta2, .pergunta3{
+    background-color: #989898;
+    max-width: 20%;
+    padding: 1%;
+    border-radius: 15px;
+    align-items: left;
+    margin: auto; 
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.respostas{
+    display: flex;
+}
+.resposta1, .resposta2, .resposta3{
+    background-color: #989898;
+    max-width: 20%;
+    padding: 2%;
+    border-radius: 15px;
+    align-items: left, flex-end;
+    margin: auto; 
+    justify-content: end;
+}
+.pontuacao{
+    font-family: Arial, sans-serif;
+    color: #f8f8f8;
+    margin-left: 300px;
+}
+input{
+    width: 20px;
+    border-radius: 2px;
+}
+button {
+    background-color: #00a506;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006305;
+}
+.final{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+
+}

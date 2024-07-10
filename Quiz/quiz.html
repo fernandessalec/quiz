@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="realimagemtopo.png">
+    <link rel="stylesheet" href="quizz.css">
+
+</head>
+<body>   
+    
+    <h1>Quiz</h1>
+
+
+    <div class="conteiner">
+    
+
+     <div class="perguntas">
+     <section class="pergunta1">
+      <h3>Primeira pergunta</h3>
+      <h4>Em que ano ocorreu a primeira copa do mundo? </h4>
+     </section><br>
+
+     <section class="pergunta2">
+      <h3>Segunda pergunta</h3>
+      <h4>Qual seleção foi a última campeã mundial (2022)? </h4>  
+     </section><br>
+
+     <section class="pergunta3">
+        <h3>Terceira pergunta</h3>
+        <h4>Qual seleção tem mais copas do mundo? </h4>  
+     </section><br>
+     </div>
+     
+     <div class="respostas">
+        <section class="resposta1">
+        <h3>Qual a sua resposta?</h3>
+        
+        <select name="resposta" id="selectMenu1">
+        <option value="0">Resposta</option>
+        <option name="resposta1" value="1">No ano 1930</option>
+        <option name="resposta1" value="0">No ano 1998</option>
+        <option name="resposta1" value="0">No ano 1938</option>
+        </select><br><br></section>
+
+
+        <section class="resposta2">
+        <h3>Qual a sua resposta?</h3>
+        
+    
+        <select name="resposta" id="selectMenu2">
+        <option value="0">Resposta</option>
+        <option name="resposta2" value="0">Alemanha</option>
+        <option name="resposta2" value="0">Brasil</option>
+        <option name="resposta2" value="1">Argentina</option>
+        </select><br><br></section>
+
+        <section class="resposta3">
+        <h3>Qual a sua resposta?</h3>
+        
+        <select name="resposta" id="selectMenu3">
+        <option value="0">Resposta</option>
+        <option name="resposta3" value="1">Brasil</option>
+        <option name="resposta3" value="0">Alemanha</option>
+        <option name="resposta3" value="0">França</option>
+        </select><br><br></section>
+     </div><br><hr>
+     
+    <div class="final">
+
+      <input type="text" id="Resultado">
+      <button type="button" onclick="Enviar()">Finalizar!</button>
+    
+    </div>
+   
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
